@@ -1,0 +1,33 @@
+{
+	"title":"Feature schema",
+	"type":"object",
+	"properties":{
+		"segment": {
+			"type":"object",
+			"id":"string",
+			"start":"integer",
+			"stop":"integer",
+			"total":"integer",
+			"version":"string",
+			"properties": {
+				"feature":{
+					"id":"string",
+					"label":"string"
+				},
+				"type":{
+					"id":"string",
+					"cvId":"string",
+					"category":"string",
+					"name":"string"
+				},
+				"method":{
+					"id":"string",
+					"name":"string"
+				},
+				"score":"number",
+				"note":"string",
+				"link":"string"
+			}
+		}
+	}
+}

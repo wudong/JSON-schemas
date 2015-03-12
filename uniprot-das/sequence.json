@@ -1,0 +1,25 @@
+{
+	"title": "Sequence schema",
+	"type": "object",
+	"properties": {
+		"id": {
+			"type": "string"
+		},
+		"start": {
+			"type": "integer"
+		},
+		"stop": {
+			"type": "integer"
+		},
+		"version": {
+			"type": "string"
+		},
+		"label": {
+			"type": "string"
+		},
+		"sequence": {
+			"type": "string"
+		}
+	},
+	"required": ["id", "start","stop","version","label","sequence"]
+}
