@@ -8,4 +8,6 @@ Definition of JSON schemas according to the definition on http://json-schema.org
 The current schemas in this repository are:
 * **uniprot-das**: translation of the XML schema of services currently provided by UniProtDAS, to be migrated to uniprot-dataservices
 * **uniprot-dataservices**: schemas for the new dataservices
-  * **features**: schema for the web service provinf sequence features
+  * **features**: schema for the web service provinf sequence features, some additional restrictions not currently possible in json-schemas:
+    * begin >= end
+    * end <= length(sequence) 
