@@ -137,9 +137,6 @@
 					"type": "string",
 					"unique": true
 				},
-				"internalId": {
-					"type": "string"
-				},
 				"description": {
 					"type": "string"
 				},
@@ -218,7 +215,7 @@
 					"minItems": 1
 				}
 			},
-			"required": ["ftId", "begin", "end", "wildType", "mutation", "frequency", "polyphenPrediction", "polyphenScore", "siftPrediction", "siftScore"]
+			"required": ["ftId", "begin", "end", "wildType", "mutation", "frequency", "polyphenPrediction", "polyphenScore", "siftPrediction", "siftScore", "sourceIds"]
 		},
 		"evidenceObject": {
 			"properties": {
