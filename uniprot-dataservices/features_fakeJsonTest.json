@@ -180,17 +180,18 @@
 			                        	, "siftPrediction": "another prediction", "siftScore": 0.99
 			                        	,"association": "Alzheimer 1"
 			                        	,"somaticStatus" : 1
-	            						,"consequenceTypes" : "missense variant"
-	            						,"cytogeneticBand" : "21q21.3"
-	            						,"genomicLocation" : "21:g.25881691G>T"
-	            						,"sourceIds" : ["COSM1029630"]
-	            						,"clinicalSignificances" : ["unclassified"]
+            						,"consequenceTypes" : "missense variant"
+            						,"cytogeneticBand" : "21q21.3"
+            						,"genomicLocation" : "21:g.25881691G>T"
+            						,"sourceIds" : ["COSM1029630"]
+            						,"clinicalSignificances" : ["unclassified"]
 		                        	}, { 
 			                        	"ftId": "P05067_variant201", "description": "in ALZ; something else", "begin": 201, "end": 201
 			                        	,"wildType" : "F", "mutation": "P", "frequency": 0
 			                        	,"polyphenPrediction": "a prediction", "polyphenScore": 0.07
 			                        	, "siftPrediction": "another prediction", "siftScore": 0.90
 			                        	,"association": "Alzheimer 1"
+			                        	,"sourceIds" : ["COSM1029"]
 		                        	}
 			                    ]
 			                }
@@ -207,24 +208,27 @@
 			                        	,"polyphenPrediction": "a prediction", "polyphenScore": 0.005
 			                        	, "siftPrediction": "another prediction", "siftScore": 0.99
 			                        	,"association": "Alzheimer 1"
+			                        	,"sourceIds" : ["VAR_123"]
 		                        	}, { 
 			                        	"ftId": "P05067_variant203", "description": "in ALZ; something else", "begin": 210, "end": 210
 			                        	,"wildType" : "F", "mutation": "FATM", "frequency": 0
 			                        	,"polyphenPrediction": "a prediction", "polyphenScore": 0.005
 			                        	, "siftPrediction": "another prediction", "siftScore": 0.99
 			                        	,"association": "Alzheimer 1"
+			                        	,"sourceIds" : ["rs123"]
 		                        	}, { 
 			                        	"ftId": "P05067_variant204", "description": "in ALZ; something else", "begin": 211, "end": 211
 			                        	,"wildType" : "F", "mutation": "ATM", "frequency": 0
 			                        	,"polyphenPrediction": "a prediction", "polyphenScore": 0.005
 			                        	, "siftPrediction": "another prediction", "siftScore": 0.99
 			                        	,"association": "Alzheimer 1"
+			                        	,"sourceIds" : ["rs2345"]
 		                        	}
 			                    ]
 			                }
 			            ]
 			        }, {
-			            "type": "STOP GAINED", "label": "Stop gained",
+			            "type": "STOP_GAINED", "label": "Stop gained",
 			            "locations": [
 			                {
 			                    "locationType": "POSITION",
@@ -235,6 +239,41 @@
 			                        	,"polyphenPrediction": "a prediction", "polyphenScore": 0.005
 			                        	, "siftPrediction": "another prediction", "siftScore": 0.99
 			                        	,"association": "Alzheimer 1"
+			                        	,"sourceIds" : ["COSM1029631"]
+		                        	}
+			                    ]
+			                }
+			            ]
+			        }, {
+			            "type": "STOP_LOST", "label": "Stop lost",
+			            "locations": [
+			                {
+			                    "locationType": "POSITION",
+			                    "features": [
+			                        { 
+			                        	"ftId": "P05067_variant100", "description": "in ALZ; something else", "begin": 250, "end": 250
+			                        	,"wildType" : "*", "mutation": "M", "frequency": 0
+			                        	,"polyphenPrediction": "a prediction that should always be at the very last sequence position", "polyphenScore": 0.005
+			                        	, "siftPrediction": "another prediction", "siftScore": 0.99
+			                        	,"association": "Alzheimer 1"
+			                        	,"sourceIds" : ["COSM1029632"]
+		                        	}
+			                    ]
+			                }
+			            ]
+			        }, {
+			            "type": "INIT_CODON", "label": "Initiator codon",
+			            "locations": [
+			                {
+			                    "locationType": "POSITION",
+			                    "features": [
+			                        { 
+			                        	"ftId": "P05067_variant101", "description": "in ALZ; something else", "begin": 1, "end": 1
+			                        	,"wildType" : "M", "mutation": "T", "frequency": 0
+			                        	,"polyphenPrediction": "a prediction that should always be at the very first sequence position", "polyphenScore": 0.005
+			                        	, "siftPrediction": "another prediction", "siftScore": 0.99
+			                        	,"association": "Alzheimer 1"
+			                        	,"sourceIds" : ["COSM10296321"]
 		                        	}
 			                    ]
 			                }
