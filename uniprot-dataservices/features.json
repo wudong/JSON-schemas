@@ -36,17 +36,9 @@
 	"definitions": {
 		"featureObject": {
 			"properties": {
-				"category": {
-					"type": "string",
-					"pattern": "^(MOLECULE PROC\\.|STRUCTURAL FT\\.|DOMAINS & SITES|POST TRANSLATIONAL MODIFICATIONS|MUTAGENEIS|SEQUENCE INFO\\.|TOPOLOGY|VARIANTS)$"
-				},
 				"categoryAbbrev": {
 					"type": "string",
 					"pattern": "^(MOL_PROC|STR_FT|DOM_SITE|PTM|NAT_VAR|MUTA|SEQ_INFO|TOPO)$"
-				},
-				"type": {
-					"type": "string",
-					"pattern": "^(INIT. METHIONINE|SIGNAL|PROPEPTIDE|TRANSIT|CHAIN|PEPTIDE|TURN|HELIX|BETA STRAND|CROSSLNK|DISULFIDE BOND|DOMAIN|REPEAT|CALCIUM BINDING|ZINC FINGER|DNA BIND|NUCLEOTIDE BIND|REGION OF INTEREST|COILED COIL|SHORT SEQ. MOTIF|ACTIVE SITE|METAL ION-BINDING|BINDING|SITE|MODIFIED RESIDUE|LIPID|GLYCOSILATION|MUTAGENESIS|COMPOSITIONAL BIAS|CONFLICT|NON CONSECUTIVE|NON TERMINAL|UNSURE SEQ.|NON STANDARD|TOPOLOGICAL DOMAIN|TRANSMEMBRANE|INTRAMEMBRANE|MISSENSE|INSERT & DELETE|STOP GAINED|STOP LOST|INITIATOR CODON)$"
 				},
 				"typeAbbrev": {
 					"type": "string",
@@ -94,7 +86,7 @@
 					"$ref": "#/definitions/variantObject"
 				}
 			},
-			"required": ["category", "type", "ftId", "begin", "end"]
+			"required": ["categoryAbbrev", "typeAbbrev", "ftId", "begin", "end"]
 		},
 		"variantObject": {
 			"properties": {
