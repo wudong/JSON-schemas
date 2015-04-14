@@ -5,84 +5,83 @@
     "sequenceVersion": "12345",
     "features": [
 		{
-		    "category": "DOMAINS & SITES", "categoryAbbrev": "DOM_SITE",
-		    "typeAbbrev": "ACT_SITE", "type": "ACTIVE SITE", "cvId": "SO:0000417",
+		    "categoryAbbrev": "DOM_SITE",
+		    "typeAbbrev": "ACT_SITE", "cvId": "SO:0000417",
 		    "ftId": "act-site-1", "description": "act-site-1-desc", "begin": 5, "end":6
 		}, { 
-	    	"category": "DOMAINS & SITES", "categoryAbbrev": "DOM_SITE",
-		    "typeAbbrev": "ACT_SITE", "type": "ACTIVE SITE", "cvId": "SO:0000417",
+	    	"categoryAbbrev": "DOM_SITE",
+		    "typeAbbrev": "ACT_SITE", "cvId": "SO:0000417",
 		    "ftId": "act-site-2", "description": "act-site-2-desc", "begin": 10, "end": 10
 		}, {
-	    	"category": "DOMAINS & SITES", "categoryAbbrev": "DOM_SITE",
-		    "typeAbbrev": "ACT_SITE", "type": "ACTIVE SITE", "cvId": "SO:0000417",
+	    	"categoryAbbrev": "DOM_SITE",
+		    "typeAbbrev": "ACT_SITE", "cvId": "SO:0000417",
 		    "ftId": "act-site-3", "description": "act-site-3-desc", "begin": 170, "end": 170
-		}, {
-		    
-		    "category": "DOMAINS & SITES", "categoryAbbrev": "DOM_SITE",
+		}, {		    
+		    "categoryAbbrev": "DOM_SITE",
 		    "typeAbbrev": "SITE", "type": "SITE", "cvId": "SO:0000SSS",
 		    "ftId": "site-1", "description": "site-1-desc", "begin": 20, "end":20
 		}, {
-		    "category": "DOMAINS & SITES", "categoryAbbrev": "DOM_SITE",
-		    "typeAbbrev": "METAL", "type": "METAL ION-BINDING", "cvId": "SO:0000MMM",
+		    "categoryAbbrev": "DOM_SITE",
+		    "typeAbbrev": "METAL", "cvId": "SO:0000MMM",
 		    "ftId": "metal-1", "description": "metal-1-desc", "begin": 30, "end":30
         }, {
-        	"category": "DOMAINS & SITES", "categoryAbbrev": "DOM_SITE",
-		    "typeAbbrev": "BINDING", "type": "BINDING", "cvId": "SO:0000BBB",
+        	"categoryAbbrev": "DOM_SITE",
+		    "typeAbbrev": "BINDING", "cvId": "SO:0000BBB",
 		    "ftId": "binding-1", "description": "binding-1-desc", "begin": 40, "end":41
 	    }, {
-	    	"category": "DOMAINS & SITES", "categoryAbbrev": "DOM_SITE",
-		    "typeAbbrev": "LIPID", "type": "LIPID", "cvId": "SO:0000LLL",
+	    	"categoryAbbrev": "DOM_SITE",
+		    "typeAbbrev": "LIPID", "cvId": "SO:0000LLL",
 		    "ftId": "lipid-1", "description": "lipid-1-desc", "begin": 50, "end":50
 	    }, {
-	    	"category": "DOMAINS & SITES", "categoryAbbrev": "DOM_SITE",
-		    "typeAbbrev": "NON_STD", "type": "NON STANDARD", "cvId": "SO:0000NNN",
+	    	"categoryAbbrev": "DOM_SITE",
+		    "typeAbbrev": "NON_STD", "cvId": "SO:0000NNN",
 		    "ftId": "non-std-1", "description": "non-std-1-desc", "begin": 60, "end":60
 	    }, {
-	    	"category": "DOMAINS & SITES", "categoryAbbrev": "DOM_SITE",
-            "typeAbbrev": "CA_BIND", "type": "CALCIUM BINDING", "cvId": "SO:0001080",
+	    	"categoryAbbrev": "DOM_SITE",
+            "typeAbbrev": "CA_BIND", "cvId": "SO:0001080",
 		    "ftId": "ca_bind-1", "description": "ca_bind-1-desc", "begin": 7, "end": 14
 	    }, {
-	    	"category": "DOMAINS & SITES", "categoryAbbrev": "DOM_SITE",
-            "typeAbbrev": "CA_BIND", "type": "CALCIUM BINDING", "cvId": "SO:0001080",
+	    	"categoryAbbrev": "DOM_SITE",
+            "typeAbbrev": "CA_BIND", "cvId": "SO:0001080",
 		    "ftId": "ca_bind-2", "description": "ca_bind-2-desc", "begin": 38, "end": 45
 	    }, {
 		    "category": "STRUCTURAL FT.", "categoryAbbrev": "STR_FT",
-		    "typeAbbrev": "DISULFID", "type": "DISULFIDE BOND", "cvId": "MOD:00689",
+		    "typeAbbrev": "DISULFID", "cvId": "MOD:00689",
 		    "ftId": "bond-1", "description": "bond-1-desc", "begin": 15, "end": 25
 	    }, { 
 	    	"category": "STRUCTURAL FT.", "categoryAbbrev": "STR_FT",
-	    	"typeAbbrev": "TURN", "type": "TURN", "cvId": "SO:0001128",
+	    	"typeAbbrev": "TURN", "cvId": "SO:0001128",
 		    "ftId": "TURN-1", "description": "TURN-1-desc", "begin": 8, "end": 59,
 		    "evidence": [{"type": "ECO:0000218", "source": {"ref": "23"}}]
 		}, {
 			"category": "STRUCTURAL FT.", "categoryAbbrev": "STR_FT",
-			"typeAbbrev": "TURN", "type": "TURN", "cvId": "SO:0001128",
+			"typeAbbrev": "TURN", "cvId": "SO:0001128",
 		    "ftId": "TURN-2", "description": "TURN-2-desc", "begin": 18, "end": 69,
 		    "evidence": [{"type": "ECO:0000203", "source": {"dbReferenceType": "MIM", "dbReferenceId": "123"}}]
 		}, {
 			"category": "STRUCTURAL FT.", "categoryAbbrev": "STR_FT",
-			"typeAbbrev": "TURN", "type": "TURN", "cvId": "SO:0001128",
+			"typeAbbrev": "TURN", "cvId": "SO:0001128",
 		    "ftId": "TURN-3", "description": "TURN-3-desc", "begin": 28, "end": 79,
 		    "evidence": [{"type": "ECO:0000203", "source": {"dbReferenceType": "MIM", "dbReferenceId": "123"}}]
 		}, {
 			"category": "STRUCTURAL FT.", "categoryAbbrev": "STR_FT",
-            "typeAbbrev": "NON_TER", "type": "NON TERMINAL", "cvId": "NA",
+            "typeAbbrev": "NON_TER", "cvId": "NA",
             "ftId": "non-ter-0", "description": "non-ter-0-desc", "sourceIds": ["internal ID"], "begin": 170, "end": 170
         }, {
         	"category": "STRUCTURAL FT.", "categoryAbbrev": "STR_FT",
-            "typeAbbrev": "NON_CONS", "type": "NON CONSECUTIVE", "cvId": "NA",
+            "typeAbbrev": "NON_CONS", "cvId": "NA",
 		    "ftId": "non-cons-0", "description": "non-cons-0-desc", "begin": 21, "end": 21
 	    }, {
 	    	"category": "STRUCTURAL FT.", "categoryAbbrev": "STR_FT",
-            "typeAbbrev": "NON_CONS", "type": "NON CONSECUTIVE", "cvId": "NA",
+            "typeAbbrev": "NON_CONS", "cvId": "NA",
 		    "ftId": "non-cons-2", "description": "non-cons-1-desc", "begin": 170, "end": 170
 	    }, {
 	    	"category": "STRUCTURAL FT.", "categoryAbbrev": "STR_FT",
-            "typeAbbrev": "INIT_MET", "type": "INIT. METHIONINE", "cvId": "NA",
+            "typeAbbrev": "INIT_MET","cvId": "NA",
 		    "ftId": "init-met-0", "description": "init-met-0-desc", "begin": 1, "end": 1
 	    }, {
 			"category": "VARIANTS", "categoryAbbrev": "NAT_VAR",
-			"typeAbbrev": "MISSENSE", "type": "MISSENSE",
+			"typeAbbrev": "MISSENSE",
 			"ftId": "P05067_variant200", "description": "in ALZ; something else", "begin": 200, "end": 200
 			,"sourceIds" : ["COSM1029630"]
 			, "variant": {
@@ -97,7 +96,7 @@
 			}
 		}, {
 			"category": "VARIANTS", "categoryAbbrev": "NAT_VAR",
-			"typeAbbrev": "MISSENSE", "type": "MISSENSE",
+			"typeAbbrev": "MISSENSE",
 			"ftId": "P05067_variant201", "description": "in ALZ; something else", "begin": 201, "end": 201
 			,"sourceIds" : ["COSM1029"]
 			, "variant": {
@@ -108,7 +107,7 @@
 			}
 		}, {
 			"category": "VARIANTS", "categoryAbbrev": "NAT_VAR",
-			"typeAbbrev": "INDEL", "type": "INSERT & DELETE",
+			"typeAbbrev": "INDEL",
 			"ftId": "P05067_variant202", "description": "in ALZ; something else", "begin": 202, "end": 202
 			,"sourceIds" : ["VAR_123"]
 			, "variant": {
@@ -119,7 +118,7 @@
 			}
 		}, { 
 			"category": "VARIANTS", "categoryAbbrev": "NAT_VAR",
-			"typeAbbrev": "INDEL", "type": "INSERT & DELETE",
+			"typeAbbrev": "INDEL",
 			"ftId": "P05067_variant203", "description": "in ALZ; something else", "begin": 210, "end": 210
 			,"sourceIds" : ["rs123"]
 			, "variant": {
@@ -130,7 +129,7 @@
 			}                        	
 		}, { 
 			"category": "VARIANTS", "categoryAbbrev": "NAT_VAR",
-			"typeAbbrev": "INDEL", "type": "INSERT & DELETE",
+			"typeAbbrev": "INDEL",
 			"ftId": "P05067_variant204", "description": "in ALZ; something else", "begin": 211, "end": 211
 			,"sourceIds" : ["rs2345"]
 			, "variant": {
@@ -141,7 +140,7 @@
 		    }
 		}, {
 			"category": "VARIANTS", "categoryAbbrev": "NAT_VAR",
-			"typeAbbrev": "STOP_GAINED", "type": "STOP GAINED",
+			"typeAbbrev": "STOP_GAINED",
 			"ftId": "P05067_variant36", "description": "in ALZ; something else", "begin": 202, "end": 202
 			,"sourceIds" : ["COSM1029631"]
 			, "variant": {
@@ -152,7 +151,7 @@
 			}
 		}, {
 			"category": "VARIANTS", "categoryAbbrev": "NAT_VAR",
-			"typeAbbrev": "STOP_LOST", "type": "STOP LOST",
+			"typeAbbrev": "STOP_LOST",
 			"ftId": "P05067_variant100", "description": "in ALZ; something else", "begin": 250, "end": 250
 			,"sourceIds" : ["COSM1029632"]
 			, "variant": {
@@ -163,7 +162,7 @@
 		    }
 		}, {
 			"category": "VARIANTS", "categoryAbbrev": "NAT_VAR",
-			"typeAbbrev": "INIT_CODON", "type": "INITIATOR CODON",
+			"typeAbbrev": "INIT_CODON",
 			"ftId": "P05067_variant101", "description": "in ALZ; something else", "begin": 1, "end": 1
 			,"sourceIds" : ["COSM10296321"]
 			, "variant": {
