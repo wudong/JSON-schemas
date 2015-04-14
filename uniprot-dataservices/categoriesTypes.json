@@ -1,0 +1,174 @@
+[
+    {
+        "categoryAbbrev": "MOL_PROC",
+        "category": "MOLECULE PROC.",
+        "types": [
+            {
+                "typeAbbrev": "INIT_MET",
+                "type": "INIT. METHIONINE"
+            }, {
+                "typeAbbrev": "SIGNAL",
+                "type": "SIGNAL"
+            }, {
+                "typeAbbrev": "PROPEP",
+                "type": "PROPEPTIDE"
+            }, {
+                "typeAbbrev": "TRANSIT",
+                "type": "TRANSIT"
+            }, {
+                "typeAbbrev": "CHAIN",
+                "type": "MATURE REGION"
+            }, {
+                "typeAbbrev": "PEPTIDE",
+                "type": "PEPTIDE"
+            }
+        ]
+    }, {
+        "categoryAbbrev": "STR_FT",
+        "category": "STRUCTURAL FT.",
+        "types": [
+            {
+                "typeAbbrev": "TURN",
+                "type": "TURN"
+            }, {
+                "typeAbbrev": "HELIX",
+                "type": "HELIX"
+            }, {
+                "typeAbbrev": "STRAND",
+                "type": "BETA STRAND"
+            }, {
+                "typeAbbrev": "CROSSLNK",
+                "type": "CROSSLNK"
+            }, {
+                "typeAbbrev": "DISULFID",
+                "type": "DISULFIDE BOND"
+            }
+        ]
+    }, {
+        "categoryAbbrev": "DOM_SITE",
+        "category": "DOMAINS & SITES",
+        "types": [
+            {
+                "typeAbbrev": "REPEAT",
+                "type": "REPEAT"
+            }, {
+                "typeAbbrev": "HELIX",
+                "type": "HELIX"
+            }, {
+                "typeAbbrev": "CA_BIND",
+                "type": "CALCIUM BINDING"
+            }, {
+                "typeAbbrev": "ZN_FING",
+                "type": "ZINC FINGER"
+            }, {
+                "typeAbbrev": "DNA_BIND",
+                "type": "DNA BINDING"
+            }, {
+                "typeAbbrev": "NP_BIND",
+                "type": "NUCLEOTIDE BIND"
+            }, {
+                "typeAbbrev": "REGION",
+                "type": "REGION OF INTEREST"
+            }, {
+                "typeAbbrev": "COILED",
+                "type": "COILED COIL"
+            }, {
+                "typeAbbrev": "MOTIF",
+                "type": "SHORT SEQ. MOTIF"
+            }, {
+                "typeAbbrev": "ACT_SITE",
+                "type": "ACTIVE SITE"
+            }, {
+                "typeAbbrev": "METAL",
+                "type": "METAL ION-BINDING"
+            }, {
+                "typeAbbrev": "BINDING",
+                "type": "BINDING"
+            }, {
+                "typeAbbrev": "SITE",
+                "type": "SITE"
+            }
+        ]
+    }, {
+        "categoryAbbrev": "PTM",
+        "category": "POST TRANSLATIONAL MODIFICATIONS",
+        "types": [
+            {
+                "typeAbbrev": "MOD_RES",
+                "type": "MODIFIED RESIDUE"
+            }, {
+                "typeAbbrev": "LIPID",
+                "type": "LIPID"
+            }, {
+                "typeAbbrev": "CARBOHYD",
+                "type": "GLYCOSILATION"
+            }
+        ]
+    }, {
+        "categoryAbbrev": "MUTA",
+        "category": "MUTAGENESIS",
+        "types": [
+            {
+                "typeAbbrev": "MUTA",
+                "type": "MUTAGENESIS"
+            }
+        ]
+    }, {
+        "categoryAbbrev": "SEQ_INFO",
+        "category": "SEQUENCE INFO.",
+        "types": [
+            {
+                "typeAbbrev": "COMP_BIAS",
+                "type": "COMPOSITIONAL BIAS"
+            }, {
+                "typeAbbrev": "CONFLICT",
+                "type": "CONFLICT"
+            }, {
+                "typeAbbrev": "NON_CONS",
+                "type": "NON CONSECUTIVE"
+            }, {
+                "typeAbbrev": "NON_TER",
+                "type": "NON TERMINAL"
+            }, {
+                "typeAbbrev": "UNSURE",
+                "type": "UNSURE SEQ."
+            }
+        ]
+    }, {
+        "categoryAbbrev": "TOPO",
+        "category": "TOPOLOGY",
+        "types": [
+            {
+                "typeAbbrev": "TOPO_DOM",
+                "type": "TOPOLOGICAL DOMAIN"
+            }, {
+                "typeAbbrev": "TRANSMEM",
+                "type": "TRANSMEMBRANE"
+            }, {
+                "typeAbbrev": "INTRAMEM",
+                "type": "INTRAMEMBRANE"
+            }
+        ]
+    }, {
+        "categoryAbbrev": "NAT_VAR",
+        "category": "VARIANTS",
+        "types": [
+            {
+                "typeAbbrev": "MISSENSE",
+                "type": "MISSENSE"
+            }, {
+                "typeAbbrev": "INSDEL",
+                "type": "INSERT & DELETE"
+            }, {
+                "typeAbbrev": "STOP_GAINED",
+                "type": "STOP GAINED"
+            }, {
+                "typeAbbrev": "STOP_LOST",
+                "type": "STOP LOST"
+            }, {
+                "typeAbbrev": "INIT_CODON",
+                "type": "INITIATOR CODON"
+            }
+        ]
+    }
+]
