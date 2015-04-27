@@ -154,8 +154,20 @@
         "category": "VARIANTS",
         "types": [
             {
-                "typeAbbrev": "MISSENSE",
-                "type": "MISSENSE"
+                "typeAbbrev": "MS_DIS",
+                "type": "MISSENSE DISEASE"
+            }, {
+                "typeAbbrev": "MS_DEL",
+                "type": "MISSENSE DELETERIOUS"
+            }, {
+                "typeAbbrev": "MS_INT",
+                "type": "MISSENSE INTERMEDIATE"
+            }, {
+                "typeAbbrev": "MS_BEN",
+                "type": "MISSENSE BENIGN"
+            }, {
+                "typeAbbrev": "MS_UNK",
+                "type": "MISSENSE UNKNOWN"
             }, {
                 "typeAbbrev": "INSDEL",
                 "type": "INSERT & DELETE"
