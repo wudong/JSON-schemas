@@ -9,8 +9,12 @@ All features, variants or not, should have a begin position. An end position is 
 ### Non variant features ###
 Non variant features, refert to as features in the JSON schema, **must** be order by category, type, and start position. In this way we aim to save some processing time on the clients.
 
+Some protein features represent a modification in the protein sequence, for instance Sequence Conflict under the category Sequence Information. In those cases, we need the original and alternative sequence. The original sequence will be retrieved from the sequence itself while the alternative will come in a property named alternativeSequence.
+
 ### Variants ###
 A variant is a mutated set of amino acides. Usually it will be only one amino acid but it could be more than one, e.g., insertions and repetitions. The attribute "length" in the JSON schema indicates how many amino acids are mutating, if ommited it is understood that the variant deals with only one amino acid. Variants **must** be order by position, mutations inside variants **must** be ordered by type.
+
+a variant always represent a modification in the sequence. The wild type will be retrieved from the sequence itself while the mutation will be specified in a propery named mutatedType. 
 
 ### Categories and types ###
 The file [categoriesTypes.json](https://github.com/ebi-uniprot/JSON-schemas/blob/master/uniprot-dataservices/categoriesTypes.json) contains the categories and types for UniProt features. Category and type abbreviations **must** be the same as those used in the features JSON. The order for categories and types in the features JSON **must** be alphabetical.
