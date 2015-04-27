@@ -4,173 +4,142 @@
     "sequence": "abcdefghikklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz",
     "sequenceVersion": "12345",
     "features": [
-		{
-		    "categoryAbbrev": "DOM_SITE",
-		    "typeAbbrev": "ACT_SITE", "cvId": "SO:0000417",
-		    "ftId": "act-site-1", "description": "act-site-1-desc", "begin": 5, "end":6
-		}, { 
-	    	"categoryAbbrev": "DOM_SITE",
-		    "typeAbbrev": "ACT_SITE", "cvId": "SO:0000417",
-		    "ftId": "act-site-2", "description": "act-site-2-desc", "begin": 10, "end": 10
-		}, {
-	    	"categoryAbbrev": "DOM_SITE",
-		    "typeAbbrev": "ACT_SITE", "cvId": "SO:0000417",
-		    "ftId": "act-site-3", "description": "act-site-3-desc", "begin": 170, "end": 170
-		}, {		    
-		    "categoryAbbrev": "DOM_SITE",
-		    "typeAbbrev": "SITE", "type": "SITE", "cvId": "SO:0000SSS",
-		    "ftId": "site-1", "description": "site-1-desc", "begin": 20, "end":20
-		}, {
-		    "categoryAbbrev": "DOM_SITE",
-		    "typeAbbrev": "METAL", "cvId": "SO:0000MMM",
-		    "ftId": "metal-1", "description": "metal-1-desc", "begin": 30, "end":30
-        }, {
-        	"categoryAbbrev": "DOM_SITE",
-		    "typeAbbrev": "BINDING", "cvId": "SO:0000BBB",
-		    "ftId": "binding-1", "description": "binding-1-desc", "begin": 40, "end":41
-	    }, {
-	    	"categoryAbbrev": "DOM_SITE",
-		    "typeAbbrev": "LIPID", "cvId": "SO:0000LLL",
-		    "ftId": "lipid-1", "description": "lipid-1-desc", "begin": 50, "end":50
-	    }, {
-	    	"categoryAbbrev": "DOM_SITE",
-		    "typeAbbrev": "NON_STD", "cvId": "SO:0000NNN",
-		    "ftId": "non-std-1", "description": "non-std-1-desc", "begin": 60, "end":60
-	    }, {
-	    	"categoryAbbrev": "DOM_SITE",
-            "typeAbbrev": "CA_BIND", "cvId": "SO:0001080",
-		    "ftId": "ca_bind-1", "description": "ca_bind-1-desc", "begin": 7, "end": 14
-	    }, {
-	    	"categoryAbbrev": "DOM_SITE",
-            "typeAbbrev": "CA_BIND", "cvId": "SO:0001080",
-		    "ftId": "ca_bind-2", "description": "ca_bind-2-desc", "begin": 38, "end": 45
-	    }, {
-		    "category": "STRUCTURAL FT.", "categoryAbbrev": "STR_FT",
-		    "typeAbbrev": "DISULFID", "cvId": "MOD:00689",
-		    "ftId": "bond-1", "description": "bond-1-desc", "begin": 15, "end": 25
-	    }, { 
-	    	"category": "STRUCTURAL FT.", "categoryAbbrev": "STR_FT",
-	    	"typeAbbrev": "TURN", "cvId": "SO:0001128",
-		    "ftId": "TURN-1", "description": "TURN-1-desc", "begin": 8, "end": 59,
-		    "evidence": [{"type": "ECO:0000218", "source": {"ref": "23"}}]
-		}, {
-			"category": "STRUCTURAL FT.", "categoryAbbrev": "STR_FT",
-			"typeAbbrev": "TURN", "cvId": "SO:0001128",
-		    "ftId": "TURN-2", "description": "TURN-2-desc", "begin": 18, "end": 69,
-		    "evidence": [{"type": "ECO:0000203", "source": {"dbReferenceType": "MIM", "dbReferenceId": "123"}}]
-		}, {
-			"category": "STRUCTURAL FT.", "categoryAbbrev": "STR_FT",
-			"typeAbbrev": "TURN", "cvId": "SO:0001128",
-		    "ftId": "TURN-3", "description": "TURN-3-desc", "begin": 28, "end": 79,
-		    "evidence": [{"type": "ECO:0000203", "source": {"dbReferenceType": "MIM", "dbReferenceId": "123"}}]
-		}, {
-			"category": "STRUCTURAL FT.", "categoryAbbrev": "STR_FT",
-            "typeAbbrev": "NON_TER", "cvId": "NA",
-            "ftId": "non-ter-0", "description": "non-ter-0-desc", "sourceIds": ["internal ID"], "begin": 170, "end": 170
-        }, {
-        	"category": "STRUCTURAL FT.", "categoryAbbrev": "STR_FT",
-            "typeAbbrev": "NON_CONS", "cvId": "NA",
-		    "ftId": "non-cons-0", "description": "non-cons-0-desc", "begin": 21, "end": 21
-	    }, {
-	    	"category": "STRUCTURAL FT.", "categoryAbbrev": "STR_FT",
-            "typeAbbrev": "NON_CONS", "cvId": "NA",
-		    "ftId": "non-cons-2", "description": "non-cons-1-desc", "begin": 170, "end": 170
-	    }, {
-	    	"category": "STRUCTURAL FT.", "categoryAbbrev": "STR_FT",
-            "typeAbbrev": "INIT_MET","cvId": "NA",
-		    "ftId": "init-met-0", "description": "init-met-0-desc", "begin": 1, "end": 1
-	    }, {
-			"category": "VARIANTS", "categoryAbbrev": "NAT_VAR",
-			"typeAbbrev": "MISSENSE",
-			"ftId": "P05067_variant200", "description": "in ALZ; something else", "begin": 200, "end": 200
-			,"sourceIds" : ["COSM1029630"]
-			, "variant": {
-				"wildType" : "F", "mutation": "A", "frequency": 0
-			    ,"polyphenPrediction": "a prediction", "polyphenScore": 0.005
-			    , "siftPrediction": "another prediction", "siftScore": 0.99
-			    ,"association": "Alzheimer 1", "somaticStatus" : 1
-            	,"consequenceTypes" : "missense variant"
-            	,"cytogeneticBand" : "21q21.3"
-            	,"genomicLocation" : "21:g.25881691G>T"            	
-            	,"clinicalSignificances" : ["unclassified"]
+	{
+	    "categoryAbbrev": "DOM_SITE",
+	    "typeAbbrev": "ACT_SITE", 
+	    "description": "act-site-1-desc", "begin": 5, "end":6
+	}, { 
+    	    "categoryAbbrev": "DOM_SITE",
+	    "typeAbbrev": "ACT_SITE",
+	    "description": "act-site-2-desc", "begin": 10
+	}, {
+    	    "categoryAbbrev": "DOM_SITE",
+	    "typeAbbrev": "ACT_SITE", 
+	    "description": "act-site-3-desc", "begin": 170
+	}, {		    
+	    "categoryAbbrev": "DOM_SITE",
+	    "typeAbbrev": "SITE",
+	    "description": "site-1-desc", "begin": 20
+	}, {
+	    "categoryAbbrev": "DOM_SITE",
+	    "typeAbbrev": "METAL",
+	    "description": "metal-1-desc", "begin": 30
+	}, {
+	    "categoryAbbrev": "DOM_SITE",
+	    "typeAbbrev": "BINDING",
+	    "description": "binding-1-desc", "begin": 40, "end":41
+    	}, {
+    	    "categoryAbbrev": "DOM_SITE",
+	    "typeAbbrev": "LIPID",
+	    "description": "lipid-1-desc", "begin": 50
+    	}, {
+    	    "categoryAbbrev": "DOM_SITE",
+	    "typeAbbrev": "NON_STD", "description": "non-std-1-desc", "begin": 60
+    	}, {
+    	    "categoryAbbrev": "DOM_SITE",
+    	    "typeAbbrev": "CA_BIND", "description": "ca_bind-1-desc", "begin": 7, "end": 14
+    	}, {
+    	    "categoryAbbrev": "DOM_SITE",
+    	    "typeAbbrev": "CA_BIND", "description": "ca_bind-2-desc", "begin": 38, "end": 45
+     	}, {
+	    "categoryAbbrev": "STR_FT",
+	    "typeAbbrev": "DISULFID", "description": "bond-1-desc", "begin": 15, "end": 25
+    	}, { 
+    	    "categoryAbbrev": "STR_FT",
+    	    "typeAbbrev": "TURN", "description": "TURN-1-desc", "begin": 8, "end": 59,
+	    "evidence": [{"type": "ECO:0000218", "source": {"reference": "23", "url": "nay url here"}}]
+	}, {
+	    "categoryAbbrev": "STR_FT",
+	    "typeAbbrev": "TURN", "description": "TURN-2-desc", "begin": 18, "end": 69,
+	    "evidence": [{"type": "ECO:0000203", "source": {"dbReferenceType": "MIM", "dbReferenceId": "123"}}]
+	}, {
+	    "categoryAbbrev": "STR_FT",
+	    "typeAbbrev": "TURN", "description": "TURN-3-desc", "begin": 28, "end": 79,
+	    "evidence": [{"type": "ECO:0000203", "source": {"dbReferenceType": "MIM", "dbReferenceId": "123", "url": "a url"}}]
+	}, {
+	    "categoryAbbrev": "STR_FT",
+    	    "typeAbbrev": "NON_TER", "description": "non-ter-0-desc"
+    	    , "sourceIds": [{"reference": "internal ID"}], "begin": 170
+	}, {
+    	    "categoryAbbrev": "STR_FT",
+    	    "typeAbbrev": "NON_CONS", "description": "non-cons-0-desc", "begin": 21
+	}, {
+    	    "categoryAbbrev": "STR_FT",
+            "typeAbbrev": "NON_CONS", "description": "non-cons-1-desc", "begin": 170
+    	}, {
+    	    "categoryAbbrev": "STR_FT",
+    	    "typeAbbrev": "INIT_MET", "description": "init-met-0-desc", "begin": 1
+    	} 
+    ],
+    "variants": [
+    	{
+		"begin": 200,
+		"mutation": [
+			{
+				"typeAbbrev": "MS_DEL", "description": "in ALZ; something else"
+				,"sourceIds" : [{"reference": "COSM1029630"}]
+				, "mutatedType": "A", "frequency": 0
+				,"polyphenPrediction": "a prediction", "polyphenScore": 0.005
+				, "siftPrediction": "another prediction", "siftScore": 0.99
+				,"association": "Alzheimer 1", "somaticStatus" : 1
+				,"cytogeneticBand" : "21q21.3"
+				,"genomicLocation" : "21:g.25881691G>T"            	
+				,"clinicalSignificances" : ["unclassified"]	
+			},
+			{
+				"typeAbbrev": "MS_DEL", "description": "in ALZ; something else"
+				,"sourceIds" : [{"reference": "COSM1029", "url": "a url here"}]
+	 			,"mutatedType": "P", "frequency": 0
+				,"polyphenPrediction": "a prediction", "polyphenScore": 0.07
+				, "siftPrediction": "another prediction", "siftScore": 0.90
+				,"association": "Alzheimer 1"
 			}
-		}, {
-			"category": "VARIANTS", "categoryAbbrev": "NAT_VAR",
-			"typeAbbrev": "MISSENSE",
-			"ftId": "P05067_variant201", "description": "in ALZ; something else", "begin": 201, "end": 201
-			,"sourceIds" : ["COSM1029"]
-			, "variant": {
-		 		"wildType" : "F", "mutation": "P", "frequency": 0
-			    ,"polyphenPrediction": "a prediction", "polyphenScore": 0.07
-			    , "siftPrediction": "another prediction", "siftScore": 0.90
-			    ,"association": "Alzheimer 1"
+		]
+	}, {
+		"begin": 202
+		, "mutation": [
+			{
+				"typeAbbrev": "INSDEL", "description": "in ALZ; something else"
+				,"sourceIds" : [{"reference": "VAR_123"}]
+				,"mutatedType": "-", "frequency": 0
+				,"polyphenPrediction": "a prediction", "polyphenScore": 0.005
+				, "siftPrediction": "another prediction", "siftScore": 0.99
+				,"association": "Alzheimer 1"
+			},
+			{
+				"typeAbbrev": "INSDEL", "description": "in ALZ; something else", "length": 4
+				,"sourceIds" : [{"reference":"rs123"}]
+				, "mutatedType": "FATM", "frequency": 0
+		    		,"polyphenPrediction": "a prediction", "polyphenScore": 0.005
+		    		, "siftPrediction": "another prediction", "siftScore": 0.99
+		    		,"association": "Alzheimer 1"
 			}
-		}, {
-			"category": "VARIANTS", "categoryAbbrev": "NAT_VAR",
-			"typeAbbrev": "INDEL",
-			"ftId": "P05067_variant202", "description": "in ALZ; something else", "begin": 202, "end": 202
-			,"sourceIds" : ["VAR_123"]
-			, "variant": {
-				"wildType" : "F", "mutation": "-", "frequency": 0
-			    ,"polyphenPrediction": "a prediction", "polyphenScore": 0.005
-			    , "siftPrediction": "another prediction", "siftScore": 0.99
-			    ,"association": "Alzheimer 1"
+		]
+		
+	}, { 
+		"begin": 211
+		, "mutation": [
+			{
+				"typeAbbrev": "INSDEL", "description": "in ALZ; something else", "length": 3
+				,"sourceIds" : [{"reference": "rs2345"}]
+				, "mutatedType": "ATM", "frequency": 0
+			    	,"polyphenPrediction": "a prediction", "polyphenScore": 0.005
+			    	, "siftPrediction": "another prediction", "siftScore": 0.99
+			    	,"association": "Alzheimer 1"
 			}
-		}, { 
-			"category": "VARIANTS", "categoryAbbrev": "NAT_VAR",
-			"typeAbbrev": "INDEL",
-			"ftId": "P05067_variant203", "description": "in ALZ; something else", "begin": 210, "end": 210
-			,"sourceIds" : ["rs123"]
-			, "variant": {
-				"wildType" : "F", "mutation": "FATM", "frequency": 0
-			    ,"polyphenPrediction": "a prediction", "polyphenScore": 0.005
-			    , "siftPrediction": "another prediction", "siftScore": 0.99
-			    ,"association": "Alzheimer 1"
-			}                        	
-		}, { 
-			"category": "VARIANTS", "categoryAbbrev": "NAT_VAR",
-			"typeAbbrev": "INDEL",
-			"ftId": "P05067_variant204", "description": "in ALZ; something else", "begin": 211, "end": 211
-			,"sourceIds" : ["rs2345"]
-			, "variant": {
-				"wildType" : "F", "mutation": "ATM", "frequency": 0
-			    ,"polyphenPrediction": "a prediction", "polyphenScore": 0.005
-			    , "siftPrediction": "another prediction", "siftScore": 0.99
-			    ,"association": "Alzheimer 1"
-		    }
-		}, {
-			"category": "VARIANTS", "categoryAbbrev": "NAT_VAR",
-			"typeAbbrev": "STOP_GAINED",
-			"ftId": "P05067_variant36", "description": "in ALZ; something else", "begin": 202, "end": 202
-			,"sourceIds" : ["COSM1029631"]
-			, "variant": {
-				"wildType" : "F", "mutation": "*", "frequency": 0
-			    ,"polyphenPrediction": "a prediction", "polyphenScore": 0.005
-			    , "siftPrediction": "another prediction", "siftScore": 0.99
-			    ,"association": "Alzheimer 1"
+		]
+	}, {
+		"begin": 212
+		, "mutation": [
+			{
+				"typeAbbrev": "STOP_GAINED", "description": "in ALZ; something else"
+				,"sourceIds" : [{"reference": "COSM1029631"}]
+				, "mutatedType": "*", "frequency": 0
+		    		,"polyphenPrediction": "a prediction", "polyphenScore": 0.005
+		    		, "siftPrediction": "another prediction", "siftScore": 0.99
+		    		,"association": "Alzheimer 1"
 			}
-		}, {
-			"category": "VARIANTS", "categoryAbbrev": "NAT_VAR",
-			"typeAbbrev": "STOP_LOST",
-			"ftId": "P05067_variant100", "description": "in ALZ; something else", "begin": 250, "end": 250
-			,"sourceIds" : ["COSM1029632"]
-			, "variant": {
-            	"wildType" : "*", "mutation": "M", "frequency": 0
-			    ,"polyphenPrediction": "a prediction that should always be at the very last sequence position", "polyphenScore": 0.005
-			    , "siftPrediction": "another prediction", "siftScore": 0.99
-			    ,"association": "Alzheimer 1"
-		    }
-		}, {
-			"category": "VARIANTS", "categoryAbbrev": "NAT_VAR",
-			"typeAbbrev": "INIT_CODON",
-			"ftId": "P05067_variant101", "description": "in ALZ; something else", "begin": 1, "end": 1
-			,"sourceIds" : ["COSM10296321"]
-			, "variant": {
-				"wildType" : "M", "mutation": "T", "frequency": 0
-			    ,"polyphenPrediction": "a prediction that should always be at the very first sequence position", "polyphenScore": 0.005
-			    , "siftPrediction": "another prediction", "siftScore": 0.99
-			    ,"association": "Alzheimer 1"
-		    }
-	    }			
-	]
+		]
+	}
+    ]
 }
