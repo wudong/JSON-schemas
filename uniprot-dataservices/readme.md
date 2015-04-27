@@ -6,10 +6,10 @@ Features are grouped in types, and types are grouped in categories. A special ca
 
 All features, variants or not, should have a begin position. An end position is optional, if not present then it is understood that the end is exactly the same as the beginning.
 
-## Non variant features ##
+### Non variant features ###
 Non variant features, refert to as features in the JSON schema, should be order by category, type, and start position. In this way we aim to save some processing time on the clients.
 
-## Variants ##
+### Variants ###
 A variant is a mutated set of amino acides. Usually it will be only one amino acid but it could be more than one, e.g., insertions and repetitions. The attribute "length" in the JSON schema indicates how many amino acids are mutating, if ommited it is understood that the variant deals with only one amino acid.
 
 ### Categories and types ###
