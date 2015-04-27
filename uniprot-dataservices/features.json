@@ -72,9 +72,6 @@
 					},
 					"uniqueItems": true
 				},
-				"originalSequence": {
-					"type": "string"
-				},
 				"alternativeSequence": {
 					"type": "string"
 				},
