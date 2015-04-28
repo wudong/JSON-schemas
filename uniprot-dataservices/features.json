@@ -31,6 +31,14 @@
 				"$ref": "#/definitions/featureObject"
 			}
 		},
+		"mutagenesis": {
+			"type": "array",
+			"minItems": 0,
+			"items": {
+				"type": "object",
+				"$ref": "#/definitions/featureObject"
+			}
+		},
 		"variants": {
 			"type": "array",
 			"minItems": 0,
@@ -40,17 +48,17 @@
 			}
 		}
 	},
-	"required": ["accession", "entryName", "sequence", "sequenceVersion", "features", "variants"],
+	"required": ["accession", "entryName", "sequence", "sequenceVersion", "features", "mutagenesis", "variants"],
 	"definitions": {
 		"featureObject": {
 			"properties": {
 				"categoryAbbrev": {
 					"type": "string",
-					"pattern": "^(MOL_PROC|STR_FT|DOM_SITE|PTM|MUTA|SEQ_INFO|TOPO)$"
+					"pattern": "^(MOL_PROC|STR_FT|DOM_SITE|PTM|SEQ_INFO|TOPO)$"
 				},
 				"typeAbbrev": {
 					"type": "string",
-					"pattern": "^(INIT_MET|SIGNAL|PROPEP|TRANSIT|CHAIN|PEPTIDE|TURN|HELIX|STRAND|CROSSLNK|DISULFID|DOMAIN|REPEAT|CA_BIND|ZN_FING|DNA_BIND|NP_BIND|REGION|COILED|MOTIF|ACT_SITE|METAL|BINDING|SITE|MOD_RES|LIPID|CARBOHYD|MUTAGEN|COMPBIAS|CONFLICT|NON_CONS|NON_TER|UNSURE|NON_STD|TOPO_DOM|TRANSMEM|INTRAMEM)$"
+					"pattern": "^(INIT_MET|SIGNAL|PROPEP|TRANSIT|CHAIN|PEPTIDE|TURN|HELIX|STRAND|CROSSLNK|DISULFID|DOMAIN|REPEAT|CA_BIND|ZN_FING|DNA_BIND|NP_BIND|REGION|COILED|MOTIF|ACT_SITE|METAL|BINDING|SITE|MOD_RES|LIPID|CARBOHYD|COMPBIAS|CONFLICT|NON_CONS|NON_TER|UNSURE|NON_STD|TOPO_DOM|TRANSMEM|INTRAMEM)$"
 				},
 				"begin": {
 					"type": "integer",
