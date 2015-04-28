@@ -3,7 +3,9 @@
 UniProt DAS will be retired by the end of this year; thus, we will provide some web services to replace the most common and used features in DAS. So far we plan to provide a sequence service, and a summary service.
 
 ## Sequence service ##
-A JSON schema for UniProt sequences is available at https://github.com/ebi-uniprot/JSON-schemas/blob/master/uniprot-das/sequence.json. In a similar way, also UniParc sequences will be provided. Sequences will be provided in JSON.
+A JSON schema for UniProt sequences is available at https://github.com/ebi-uniprot/JSON-schemas/blob/master/uniprot-das/sequence.json. Requests to UniProt should support both acessions and identifiers. In a similar way, also UniParc sequences will be provided, the pattern for entry identifiers would be different though. Requests to UniPar should support UniParc identifiers.
+
+Sequences will be provided in JSON, an additional XML format could be useful as well but not necessarily required.
 
 DAS UniProt Sequence (http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot/sequence?segment=A4_HUMAN)
 ```
