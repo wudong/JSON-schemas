@@ -2,7 +2,7 @@
 ## Features ##
 A features JSON provides general information about a protein such as accession, identifier, and sequence, as well as an array of sequence features. A sequence feature always has a start and end position within the sequence; some uncertainty regarding those positions is also possible.
 
-Features are grouped in types, and types are grouped in categories. A special category corresponds to Natural Variants. In our JSON schema we have an array for variants and another one for the rest of the features. Mutagenesis is currently part of "the rest of the features" but in the future it could be treated in a similar way as variants, and then moved to a third array "mutagenesis".
+Features are grouped in types, and types are grouped in categories. A special category corresponds to Natural Variants. In our JSON schema we have an array for variants and another one for the rest of the features. Mutagenesis is currently part of "the rest of the features" but in the future it could be treated in a similar way as variants, that is why there is a third array "mutagenesis".
 
 All features, variants or not, should have a begin position. An end position is optional, if not present then it is understood that the end is exactly the same as the beginning.
 
