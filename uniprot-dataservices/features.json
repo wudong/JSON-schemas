@@ -119,9 +119,9 @@
 		},
 		"mutationObject": {
 			"properties": {
-				"typeAbbrev": {
+				"consequenceType": {
 					"type": "string",
-					"pattern": "^(MS_DIS|MS_DEL|MS_INT|MS_BEN|MS_UNK|STOP_GAINED|STOP_LOST|INSDEL|INIT_CODON)$"
+					"pattern": "^(MISSENSE|STOP_GAINED|STOP_LOST|INSDEL|INIT_CODON)$"
 				},
 				"length": {
 					"type": "integer",
@@ -180,6 +180,12 @@
 					},
 					"uniqueItems": true
 				},
+				"isSP": {
+					"type": "boolean"	
+				},
+				"disease": {
+					"type": "boolean"
+				},
 				"evidence": {
 					"type": "array",
 					"items": {
@@ -189,7 +195,7 @@
 					"minItems": 0
 				}
 			}, 
-			"required": ["mutatedType"]
+			"required": ["consequenceType", "mutatedType"]
 		},
 		"linkObject": {
 			"properties": {
